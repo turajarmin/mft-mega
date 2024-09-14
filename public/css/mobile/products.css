@@ -1,0 +1,54 @@
+.products{
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    padding: 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    .product{
+        width:80%;
+        h2{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            color: whitesmoke;
+            margin-bottom: 20px;
+        }
+        img{
+            width: 70%;
+            display: block;
+            margin: 10px auto;
+            border-radius: 50px 0 0 0;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            color: whitesmoke;
+            opacity: 0.8;
+            width: 80%;
+            margin: 10px auto;
+            text-align: justify;
+            line-height: 25px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }
+        a{
+            display: block;
+            width: 100px;
+            height: 30px;
+            background-color: green;
+            text-align: center;
+            line-height: 30px;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            margin: 10px auto;
+        }
+    }
+}
